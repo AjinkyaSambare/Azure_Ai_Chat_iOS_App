@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176973772D00DE37002568C6 /* Azure_Ai_ConnecctApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973762D00DE37002568C6 /* Azure_Ai_ConnecctApp.swift */; };
+		176973792D00DE37002568C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973782D00DE37002568C6 /* ContentView.swift */; };
+		1769737B2D00DE3C002568C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1769737A2D00DE3C002568C6 /* Assets.xcassets */; };
+		1769737E2D00DE3C002568C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1769737D2D00DE3C002568C6 /* Preview Assets.xcassets */; };
+		176973882D00DE3D002568C6 /* Azure_Ai_ConnecctTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973872D00DE3D002568C6 /* Azure_Ai_ConnecctTests.swift */; };
+		176973922D00DE3D002568C6 /* Azure_Ai_ConnecctUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973912D00DE3D002568C6 /* Azure_Ai_ConnecctUITests.swift */; };
+		176973942D00DE3D002568C6 /* Azure_Ai_ConnecctUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973932D00DE3D002568C6 /* Azure_Ai_ConnecctUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		176973842D00DE3D002568C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1769736B2D00DE37002568C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176973722D00DE37002568C6;
+			remoteInfo = "Azure-Ai-Connecct";
+		};
+		1769738E2D00DE3D002568C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1769736B2D00DE37002568C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176973722D00DE37002568C6;
+			remoteInfo = "Azure-Ai-Connecct";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176973732D00DE37002568C6 /* Azure-Ai-Connecct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Azure-Ai-Connecct.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		176973762D00DE37002568C6 /* Azure_Ai_ConnecctApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azure_Ai_ConnecctApp.swift; sourceTree = "<group>"; };
+		176973782D00DE37002568C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1769737A2D00DE3C002568C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1769737D2D00DE3C002568C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		176973832D00DE3D002568C6 /* Azure-Ai-ConnecctTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Azure-Ai-ConnecctTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		176973872D00DE3D002568C6 /* Azure_Ai_ConnecctTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azure_Ai_ConnecctTests.swift; sourceTree = "<group>"; };
+		1769738D2D00DE3D002568C6 /* Azure-Ai-ConnecctUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Azure-Ai-ConnecctUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		176973912D00DE3D002568C6 /* Azure_Ai_ConnecctUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azure_Ai_ConnecctUITests.swift; sourceTree = "<group>"; };
+		176973932D00DE3D002568C6 /* Azure_Ai_ConnecctUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azure_Ai_ConnecctUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		176973702D00DE37002568C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176973802D00DE3D002568C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1769738A2D00DE3D002568C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1769736A2D00DE37002568C6 = {
+			isa = PBXGroup;
+			children = (
+				176973752D00DE37002568C6 /* Azure-Ai-Connecct */,
+				176973862D00DE3D002568C6 /* Azure-Ai-ConnecctTests */,
+				176973902D00DE3D002568C6 /* Azure-Ai-ConnecctUITests */,
+				176973742D00DE37002568C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		176973742D00DE37002568C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176973732D00DE37002568C6 /* Azure-Ai-Connecct.app */,
+				176973832D00DE3D002568C6 /* Azure-Ai-ConnecctTests.xctest */,
+				1769738D2D00DE3D002568C6 /* Azure-Ai-ConnecctUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176973752D00DE37002568C6 /* Azure-Ai-Connecct */ = {
+			isa = PBXGroup;
+			children = (
+				176973762D00DE37002568C6 /* Azure_Ai_ConnecctApp.swift */,
+				176973782D00DE37002568C6 /* ContentView.swift */,
+				1769737A2D00DE3C002568C6 /* Assets.xcassets */,
+				1769737C2D00DE3C002568C6 /* Preview Content */,
+			);
+			path = "Azure-Ai-Connecct";
+			sourceTree = "<group>";
+		};
+		1769737C2D00DE3C002568C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1769737D2D00DE3C002568C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		176973862D00DE3D002568C6 /* Azure-Ai-ConnecctTests */ = {
+			isa = PBXGroup;
+			children = (
+				176973872D00DE3D002568C6 /* Azure_Ai_ConnecctTests.swift */,
+			);
+			path = "Azure-Ai-ConnecctTests";
+			sourceTree = "<group>";
+		};
+		176973902D00DE3D002568C6 /* Azure-Ai-ConnecctUITests */ = {
+			isa = PBXGroup;
+			children = (
+				176973912D00DE3D002568C6 /* Azure_Ai_ConnecctUITests.swift */,
+				176973932D00DE3D002568C6 /* Azure_Ai_ConnecctUITestsLaunchTests.swift */,
+			);
+			path = "Azure-Ai-ConnecctUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		176973722D00DE37002568C6 /* Azure-Ai-Connecct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176973972D00DE3D002568C6 /* Build configuration list for PBXNativeTarget "Azure-Ai-Connecct" */;
+			buildPhases = (
+				1769736F2D00DE37002568C6 /* Sources */,
+				176973702D00DE37002568C6 /* Frameworks */,
+				176973712D00DE37002568C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Azure-Ai-Connecct";
+			productName = "Azure-Ai-Connecct";
+			productReference = 176973732D00DE37002568C6 /* Azure-Ai-Connecct.app */;
+			productType = "com.apple.product-type.application";
+		};
+		176973822D00DE3D002568C6 /* Azure-Ai-ConnecctTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1769739A2D00DE3D002568C6 /* Build configuration list for PBXNativeTarget "Azure-Ai-ConnecctTests" */;
+			buildPhases = (
+				1769737F2D00DE3D002568C6 /* Sources */,
+				176973802D00DE3D002568C6 /* Frameworks */,
+				176973812D00DE3D002568C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176973852D00DE3D002568C6 /* PBXTargetDependency */,
+			);
+			name = "Azure-Ai-ConnecctTests";
+			productName = "Azure-Ai-ConnecctTests";
+			productReference = 176973832D00DE3D002568C6 /* Azure-Ai-ConnecctTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1769738C2D00DE3D002568C6 /* Azure-Ai-ConnecctUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1769739D2D00DE3D002568C6 /* Build configuration list for PBXNativeTarget "Azure-Ai-ConnecctUITests" */;
+			buildPhases = (
+				176973892D00DE3D002568C6 /* Sources */,
+				1769738A2D00DE3D002568C6 /* Frameworks */,
+				1769738B2D00DE3D002568C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1769738F2D00DE3D002568C6 /* PBXTargetDependency */,
+			);
+			name = "Azure-Ai-ConnecctUITests";
+			productName = "Azure-Ai-ConnecctUITests";
+			productReference = 1769738D2D00DE3D002568C6 /* Azure-Ai-ConnecctUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1769736B2D00DE37002568C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					176973722D00DE37002568C6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					176973822D00DE3D002568C6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 176973722D00DE37002568C6;
+					};
+					1769738C2D00DE3D002568C6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 176973722D00DE37002568C6;
+					};
+				};
+			};
+			buildConfigurationList = 1769736E2D00DE37002568C6 /* Build configuration list for PBXProject "Azure-Ai-Connecct" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1769736A2D00DE37002568C6;
+			productRefGroup = 176973742D00DE37002568C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				176973722D00DE37002568C6 /* Azure-Ai-Connecct */,
+				176973822D00DE3D002568C6 /* Azure-Ai-ConnecctTests */,
+				1769738C2D00DE3D002568C6 /* Azure-Ai-ConnecctUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176973712D00DE37002568C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1769737E2D00DE3C002568C6 /* Preview Assets.xcassets in Resources */,
+				1769737B2D00DE3C002568C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176973812D00DE3D002568C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1769738B2D00DE3D002568C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1769736F2D00DE37002568C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176973792D00DE37002568C6 /* ContentView.swift in Sources */,
+				176973772D00DE37002568C6 /* Azure_Ai_ConnecctApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1769737F2D00DE3D002568C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176973882D00DE3D002568C6 /* Azure_Ai_ConnecctTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176973892D00DE3D002568C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176973922D00DE3D002568C6 /* Azure_Ai_ConnecctUITests.swift in Sources */,
+				176973942D00DE3D002568C6 /* Azure_Ai_ConnecctUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		176973852D00DE3D002568C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176973722D00DE37002568C6 /* Azure-Ai-Connecct */;
+			targetProxy = 176973842D00DE3D002568C6 /* PBXContainerItemProxy */;
+		};
+		1769738F2D00DE3D002568C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176973722D00DE37002568C6 /* Azure-Ai-Connecct */;
+			targetProxy = 1769738E2D00DE3D002568C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		176973952D00DE3D002568C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		176973962D00DE3D002568C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		176973982D00DE3D002568C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Azure-Ai-Connecct/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idealabs.Azure-Ai-Connecct";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		176973992D00DE3D002568C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Azure-Ai-Connecct/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idealabs.Azure-Ai-Connecct";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1769739B2D00DE3D002568C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idealabs.Azure-Ai-ConnecctTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Azure-Ai-Connecct.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Azure-Ai-Connecct";
+			};
+			name = Debug;
+		};
+		1769739C2D00DE3D002568C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idealabs.Azure-Ai-ConnecctTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Azure-Ai-Connecct.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Azure-Ai-Connecct";
+			};
+			name = Release;
+		};
+		1769739E2D00DE3D002568C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idealabs.Azure-Ai-ConnecctUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Azure-Ai-Connecct";
+			};
+			name = Debug;
+		};
+		1769739F2D00DE3D002568C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idealabs.Azure-Ai-ConnecctUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Azure-Ai-Connecct";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1769736E2D00DE37002568C6 /* Build configuration list for PBXProject "Azure-Ai-Connecct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176973952D00DE3D002568C6 /* Debug */,
+				176973962D00DE3D002568C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176973972D00DE3D002568C6 /* Build configuration list for PBXNativeTarget "Azure-Ai-Connecct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176973982D00DE3D002568C6 /* Debug */,
+				176973992D00DE3D002568C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1769739A2D00DE3D002568C6 /* Build configuration list for PBXNativeTarget "Azure-Ai-ConnecctTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1769739B2D00DE3D002568C6 /* Debug */,
+				1769739C2D00DE3D002568C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1769739D2D00DE3D002568C6 /* Build configuration list for PBXNativeTarget "Azure-Ai-ConnecctUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1769739E2D00DE3D002568C6 /* Debug */,
+				1769739F2D00DE3D002568C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1769736B2D00DE37002568C6 /* Project object */;
+}
