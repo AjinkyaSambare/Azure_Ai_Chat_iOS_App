@@ -128,8 +128,8 @@ The app uses a `config.plist` file to securely store the Azure API key. To set u
 - Dark mode compatibility.
 
 ## Credits
-- Developed by Ajinkya, 2024.
+- Developed by Ajinkya, Intern at Idealabs, under the guidance of the Idealabs team, 2024.
 - Powered by [Azure OpenAI Service](https://azure.microsoft.com/en-us/services/cognitive-services/openai-service/).
 
 ## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
