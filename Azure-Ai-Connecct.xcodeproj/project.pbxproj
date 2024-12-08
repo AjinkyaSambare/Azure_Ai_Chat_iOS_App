@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171A14E92D060F2E00F6F1EB /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 171A14E82D060F2E00F6F1EB /* config.plist */; };
 		176973772D00DE37002568C6 /* Azure_Ai_ConnecctApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973762D00DE37002568C6 /* Azure_Ai_ConnecctApp.swift */; };
 		176973792D00DE37002568C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973782D00DE37002568C6 /* ContentView.swift */; };
 		1769737B2D00DE3C002568C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1769737A2D00DE3C002568C6 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		176973882D00DE3D002568C6 /* Azure_Ai_ConnecctTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973872D00DE3D002568C6 /* Azure_Ai_ConnecctTests.swift */; };
 		176973922D00DE3D002568C6 /* Azure_Ai_ConnecctUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973912D00DE3D002568C6 /* Azure_Ai_ConnecctUITests.swift */; };
 		176973942D00DE3D002568C6 /* Azure_Ai_ConnecctUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973932D00DE3D002568C6 /* Azure_Ai_ConnecctUITestsLaunchTests.swift */; };
+		176973A32D00EAA3002568C6 /* AzureOpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176973A22D00EAA3002568C6 /* AzureOpenAIService.swift */; };
+		17E70B3F2D06128100A4A564 /* example.config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17E70B3E2D06128100A4A564 /* example.config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171A14E82D060F2E00F6F1EB /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		176973732D00DE37002568C6 /* Azure-Ai-Connecct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Azure-Ai-Connecct.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		176973762D00DE37002568C6 /* Azure_Ai_ConnecctApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azure_Ai_ConnecctApp.swift; sourceTree = "<group>"; };
 		176973782D00DE37002568C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,8 @@
 		1769738D2D00DE3D002568C6 /* Azure-Ai-ConnecctUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Azure-Ai-ConnecctUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		176973912D00DE3D002568C6 /* Azure_Ai_ConnecctUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azure_Ai_ConnecctUITests.swift; sourceTree = "<group>"; };
 		176973932D00DE3D002568C6 /* Azure_Ai_ConnecctUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azure_Ai_ConnecctUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		176973A22D00EAA3002568C6 /* AzureOpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureOpenAIService.swift; sourceTree = "<group>"; };
+		17E70B3E2D06128100A4A564 /* example.config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = example.config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				176973762D00DE37002568C6 /* Azure_Ai_ConnecctApp.swift */,
+				176973A22D00EAA3002568C6 /* AzureOpenAIService.swift */,
 				176973782D00DE37002568C6 /* ContentView.swift */,
+				171A14E82D060F2E00F6F1EB /* config.plist */,
+				17E70B3E2D06128100A4A564 /* example.config.plist */,
 				1769737A2D00DE3C002568C6 /* Assets.xcassets */,
 				1769737C2D00DE3C002568C6 /* Preview Content */,
 			);
@@ -233,6 +242,8 @@
 			files = (
 				1769737E2D00DE3C002568C6 /* Preview Assets.xcassets in Resources */,
 				1769737B2D00DE3C002568C6 /* Assets.xcassets in Resources */,
+				17E70B3F2D06128100A4A564 /* example.config.plist in Resources */,
+				171A14E92D060F2E00F6F1EB /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +270,7 @@
 			files = (
 				176973792D00DE37002568C6 /* ContentView.swift in Sources */,
 				176973772D00DE37002568C6 /* Azure_Ai_ConnecctApp.swift in Sources */,
+				176973A32D00EAA3002568C6 /* AzureOpenAIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
