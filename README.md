@@ -116,7 +116,7 @@ The app uses a `config.plist` file to securely store the Azure API key. To set u
 
 ## Example Screenshot
 
-![Azure AI Connect Screenshot](https://github.com/AjinkyaSambare/Azure_Ai_Chat/blob/main/image.png/300x400)
+<img src="https://github.com/AjinkyaSambare/Azure_Ai_Chat/blob/main/image.png" alt="Azure AI Connect Screenshot" width="300"/>
 
 ## Known Issues
 - Ensure your device or simulator has an active internet connection.
